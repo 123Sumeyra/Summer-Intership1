@@ -9,7 +9,28 @@ var firstLayerLayer= L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/wate
 	firstLayerLayer.addTo(map);
 
 //Geojson
+/*
+var request = new XMLHttpRequest();
+request.open('GET', 'Geo.json', true);
 
+request.onload = function() {
+  if (this.status >= 200 && this.status < 400) {
+    // Success!
+	var geojson = JSON.parse(this.response);
+	L.geoJson(geojson).addTo(map);
+  } else {
+    // We reached our target server, but it returned an error
+
+  }
+};
+
+request.onerror = function() {
+  // There was a connection error of some sort
+};
+
+request.send();
+  */
+ 
 var geojson={"type": "FeatureCollection","features": [{"type": "Feature","properties": {},"geometry": {"type": "Point","coordinates": [27.169189453124996,38.565347844885466]}},
 {"type": "Feature","properties": {},"geometry": {"type": "Point","coordinates": [27.19390869140625,38.56105262446978]}},{"type": "Feature","properties": {},"geometry": 
 {"type": "Point","coordinates": [27.16094970703125,38.5632002667659]}},{"type": "Feature","properties": {"marker-color": "#7e7e7e","marker-size": "medium","marker-symbol": ""},
