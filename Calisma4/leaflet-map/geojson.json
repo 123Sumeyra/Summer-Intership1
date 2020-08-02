@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.219841,
+            8.6310997
+          ]
+        },
+        "properties": {
+          "id": 336,
+          "id_user": 1,
+          "id_device": 1,
+          "timestamp": 1446571154,
+          "date": "12:49PM 03-11-2015",
+          "Latitude": 8.6310997,
+          "Longitude": -70.219841,
+          "speedKPH": 0,
+          "heading": "",
+          "Name": "N\/D",
+          "City": "N\/D",
+          "estatus": "Stop"
+        }
+      }
+    ]
+  }
